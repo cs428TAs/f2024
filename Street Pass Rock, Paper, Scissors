@@ -1,0 +1,25 @@
+Project Proposal: Street Pass Rock Paper Scissors Game
+1. Overview
+The Street Pass Rock Paper Scissors Game is a mobile application designed to utilize Bluetooth Low Energy (BLE) technology to facilitate spontaneous multiplayer gaming between users in close proximity. The game will offer an engaging, low-effort way for users to interact and compete with each other by playing the classic game of Rock, Paper, Scissors, but with a unique twist—preset move combinations that are entered in advance.
+
+2. Key Features
+Preset Moves Entry: Users enter a predetermined combination of moves, such as "Rock, Rock, Scissors," into the app. These moves will be used in future battles with nearby users.
+BLE Connectivity: As users walk around, the app will automatically search for and connect with nearby phones using Bluetooth Low Energy (BLE). If another user has the app installed, the two devices will initiate a Rock, Paper, Scissors match using the preset moves.
+Battle Results: Once a battle is completed, both users will be notified of the outcome (win, loss, or draw). When the user reopens the app, they can review their battle history to see how many times they have won or lost.
+Scalability: The core idea of the game can be expanded or varied with additional features and game modes, offering flexibility based on user preferences. For example, variations like "best out of 3 rounds" or "power-ups" could be implemented to enhance gameplay.
+3. Technical Specifications
+Platform: Android/iOS
+Communication Protocol: BLE (Bluetooth Low Energy) for proximity-based communication between devices.
+Database: Local database for storing users’ battle histories and statistics, with potential for cloud synchronization in future versions.
+4. Use Cases
+Spontaneous Gaming: The game enables users to casually engage in a quick and fun battle when passing by someone else with the app. This promotes social interaction through a simple, easy-to-play format.
+Fitness and Exploration: Users can combine the game with outdoor activities, walking around and encountering other players as a form of casual exercise.
+Gaming Customization: Users have the freedom to strategize by choosing and customizing their move combinations before encountering other players.
+5. Project Goals
+Develop a Fun and Simple Game: Provide an accessible game that requires minimal user input after the initial setup of moves, and that can be played anywhere.
+Utilize BLE Technology: Create an innovative use of Bluetooth Low Energy (BLE) technology to support automatic detection and connection of nearby devices.
+Expandability: Build a core game that can easily evolve into various versions or modes, encouraging user retention through novelty and variety.
+6. Next Steps
+Prototype Development: Build the core BLE functionality to enable device discovery and Rock, Paper, Scissors battles.
+App Interface Design: Create an intuitive and user-friendly interface where users can input their move combinations and view battle results.
+Testing and Validation: Conduct beta testing to ensure smooth BLE connections, accurate game outcomes, and optimal user experience.
