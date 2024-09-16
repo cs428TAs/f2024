@@ -1,1 +1,22 @@
+Project Proposal: Restaurant Passport
+1. Overview
+Restaurant Passport wll a web and mobile application developed through Flutter, designed to help people discover and find new restaurants to eat at. At it's core, it will be based on a passport system, where visiting a restaurant will get you a stamp for that place and users will be encouraged to visit local and less well-known restaurants.
 
+2. Key Features
+Restaurant List, based on location, with ability to filter and search. Restaurant cards have details, such as name, location, star ratings (from google maps and Yelp), brief description, most popular menu items, and a place for a stamp. Ability to bookmark restaurants
+
+Page for the "restaurant of the week", which will be a spotlighted restaurant that changes each week. Will contain a coupon code valid for the week, a community meet up time, and a special passport stamp.
+
+Page for Community, can follow other users, see their reviews of a place and their recommendations.
+
+3. Technical Specifications
+Platforms: Web/Android/iOS
+
+4. Use Cases
+Discovering new restaurants that you might not had known about before. Discovering exclusive discounts and coupons from restaurants that would partner with the app. Meeting up with other people that like discovering new restaurants and engaging online
+
+5. Project Goals
+Creating good database structures to hold and present data. Learn cross-platform development with Flutter to make an app accessible to the majority of technology users. Create and design good app flow and a clean user interface
+
+6. Next Steps
+Interface and app design, database design and implementation, user testing, development of app with Flutter
